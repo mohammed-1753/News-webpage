@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<title>News Today</title>
+	<body>
+		<header>
+			<div class="website-header">
+				<img src="images/logo-removebg-preview.png">
+				<h1>NEWS TODAY</h1>
+				<div class="social-icons">
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-google-plus-g"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fas fa-rss"></i>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-md ">
+  <!-- Brand -->
+  
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#politics">POLITICS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#world">WORLD</a>
+      </li> 
+		<li class="nav-item">
+        <a class="nav-link" href="#business">BUSINESS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#travel">TRAVEL</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="#sport">SPORT</a>
+      </li>
+    </ul>
+  </div> 
+			</nav>
+			
+			<div class="breaking-news-section">
+				<span id="btext">Breaking News</span>
+				<marquee direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+					<a href="#" class="breaking-news">
+						<p class="bntime">11 Jan 2021</p>
+						Congress under pressure to reach a deal</a>
+					<a href="#" class="breaking-news"><p class="bntime">11 Jan 2021</p>Powerful laser beam is helping track the moon</a>
+					<a href="#" class="breaking-news"><p class="bntime">11 Jan 2021</p>Snowstorm buries Pacific Northwest, with more on the way</a>
+				</marquee>
+			</div>
+		</header>
+		<main>
+			<article id="popular-news">
+				<div id="featured">
+					<h2>FEATURED</h2>
+					<section class="popular-news-carousel">
+						<div id="carousel" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						  </ol>
+						  <div class="carousel-inner">
+							<div class="carousel-item active">
+							  <img class="d-block w-100" src="images/desert.jfif" alt="First slide">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>A desert is a barren area of landscape where little precipitation occurs and, consequently, living conditions are hostile for plant and animal life. The lack of vegetation exposes the unprotected surface of the ground to the processes of denudation. About one-third of the land surface of the world is arid or semi-arid.</h5>
+									<p>11th Jan 2021</p>
+								 </div>
+							</div>
+							<div class="carousel-item">
+							  <img class="d-block w-100" src="images/ocean.jfif" alt="Second slide">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>The ocean (also the sea or the world ocean) is the body of salt water which covers approximately 71% of the surface of the Earth.[1] It is also "any of the large bodies of water into which the great ocean is divided".[1] A common definition lists five oceans, in descending order by area, the Pacific, Atlantic, Indian, Southern (Antarctic), and Arctic Oceans. </h5>
+									<p>11th Jan 2021</p>
+								 </div>
+							</div>
+							<div class="carousel-item">
+							  <img class="d-block w-100" src="images/forest.jfif" alt="Third slide">
+								<div class="carousel-caption d-none d-md-block">
+									<h5>A forest is an area of land dominated by trees. Hundreds of definitions of forest are used throughout the world, incorporating factors such as tree density, tree height, land use, legal standing and ecological function. The Food and Agriculture Organization defines a forest as land spanning more than 0.5 hectares with trees higher than 5 meters and a canopy cover of more than 10 percent, or trees able to reach these thresholds in situ. It does not include land that is predominantly under agricultural or urban land use.[5] Using this definition FRA 2020 found that forests covered 4.06 billion hectares or approximately 31 percent of the global land area in 2020. </h5>
+									<p>11th Jan 2021</p>
+								 </div>
+							</div>
+						  </div>
+						  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						  </a>
+						</div>
+					</section>
+					
+				</div>
+				<div id="latest">
+					<h2>LATEST</h2>
+					<section class="news">
+						<div class="news-container">
+							<img src="images/online news.jfif">				
+						</div>						
+					</section>
+					<br>
+					<section class="news">
+						<div class="news-container">
+							<img src="images/news article.jfif">				
+						</div>						
+					</section>
+				</div>
+				<div id="our-picks">
+					<h2>OUR PICKS</h2>
+					<section class="news">
+						<div class="news-container">
+							<img src="images/laxmi vilas palace.jfif">				
+						</div>						
+					</section>
+					<br>
+					<section class="news">
+						<div class="news-container">
+							<img src="images/lakshmi-vilas-palace-main-2.jpg">				
+						</div>						
+					</section>
+				</div>
+			</article>
+			<section class="more-news">
+				<div class="news-section">
+					<article class="world">
+						<article id="world"></article>
+						<h2>WORLD</h2>
+						<img src="images/syria crisis.jfif">
+						<h3>Syria crisis: Obama rejects US military intervention</h3>
+						<p>Now in its 11th year, the Syrian refugee crisis remains the world's largest refugee and displacement crisis of our time. ... This means 13.5 million Syrians in total are forcibly displaced, more than half of the country's population. Nearly 11.1 million people in Syria need humanitarian assistance.</p>
+					</article>
+					<article class="sport">
+						<article id="sport"></article>
+						<h2>SPORT</h2>
+						<img src="images/lisboa.jfif">
+						<h3>Lisboa Triathlon 2017</h3>
+						<p>The 2017 ITU World Triathlon Series was a series of nine World Championship Triathlon events that lead up to a Grand Final held in Rotterdam. The Series was organised under the auspices of the world governing body of triathlon, the International Triathlon Union (ITU).</p>
+					</article>
+				</div>
+				
+				<aside>
+					<h4>RECENT</h4>
+					<div class="recent-news">
+						<img src="images/mercedes car.jfif">
+						<p>2021 Mercedes-AMG C63 Coupe Makes its Debut</p>
+					</div>
+					<div class="recent-news">
+						<img src="images/surya kumar.jfif">
+						<p>2021 Surya Kumar Yadav to makes Debut in international cricket for team India</p>
+					</div>
+					<div class="recent-news">
+						<img src="images/-1.jfif">
+						<p>Money hiest Season 5 to be released in september 2021</p>
+					</div>
+				</aside>
+			</section>
+		</main>
+		<br>
+		<section id="politics">
+			<h1>POLITICS</h1>
+			<img src="images/politics.jfif" alt="">
+			<p>Politics is the way that people living in groups make decisions. Politics is about making agreements between people so that they can live together in groups such as tribes, cities, or countries. ... Politicians, and sometimes other people, may get together to form a government.</p>
+             <img src="images/politics2.jfif" alt="">
+			 <p>The 2020 United States presidential debates between Joe Biden and Donald Trump, the major candidates in the 2020 United States presidential election, were sponsored by the Commission on Presidential Debates. The first debate took place on September 29, 2020. The next debate was scheduled to take place on October 15 but was later canceled due to Trump's COVID-19 diagnosis and refusal to appear remotely rather than in person.[1] As a result, 2020 had the fewest debates since 1996.[2] The final debate took place on October 22. Additionally, a debate between the vice presidential candidates Mike Pence and Kamala Harris took place on October 7</p>
+		</section>
+		<br>
+		<section id="business">
+			<h1>BUSINESS</h1>
+			<img src="images/business.jfif" alt="">
+			<p>The country’s largest private-sector lender HDFC Bank on Saturday reported a 16.1 per cent jump in net profit to Rs 7,729.6 crore in the quarter ending June, lower than Street estimates as the bank’s asset quality deteriorated and provisions increased. In the same period last year, the bank's net profit stood at Rs 6,658.6 crore.</p>
+           <img src="images/business2.jfif" alt="">
+		   <p>The assertion came following a petition to Prime Minister Narendra Modi from National Movement for Old Pension Scheme (NMOPS) Delhi unit president Manjeet Singh Patel, in which he raised several issues, including revival of the old pension scheme on account of low returns.</p>
+		</section>
+		<br>
+		<section id="travel">
+           <h1>TRAVEL</h1>
+		   <img src="images/travel img1.jfif" alt="">
+		   <p>Canada's current border restrictions expire on July 21. We will learn as soon as tomorrow the Canadian government's new policies on U.S. tourism, tourism from the rest of the world, and flights from India.</p>
+		   <p>LONDON: Britain's latest travel rule change hit shares in airlines on Monday, with carriers including EasyJet and British Airways-owner IAG losing as much as 6% after a surprise shift in requirements for arrivals from France.</p>
+           <img src="images/mahindar car.jpeg" alt="" style="border: 25px;">
+		   <p>New Mahindra Bolero Neo bridges the gap we didn’t know needed bridging between the now defunct TUV300 and the Bolero. In essence the Neo is clearly more TUV than Bolero, but it’s also way more upmarket than the latter and with prices ranging between Rs 8.48 lakh and Rs 9.99 lakh, a heavy hitter on the value for money front. Let’s see whether the iconic Bolero prefix and the extra features help this robust SUV strike a chord with the loyalists and the masses.</p>
+		</section>
+		<br>
+		<section id="location">
+			<h1>NEWS TODAY HEADQUATERS</h1>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d944965.659162114!2d72.66953806562499!3d22.305546600000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcf80224e161b%3A0x804b2ed590768f1e!2sDecent%20Classes!5e0!3m2!1sen!2sin!4v1625230945200!5m2!1sen!2sin" width="1000" height="600" style="border:50px;" loading="lazy"></iframe>
+	</section>
+		<footer id="about">
+			<section id="about">
+				<div class="social-links" >
+					<h2>About</h2>
+					<p>News is information about current events. This may be provided through many different media: word of mouth, printing, postal systems, broadcasting, electronic communication, or through the testimony of observers and witnesses to events. News is sometimes called "hard news" to differentiate it from soft media.
+						Common topics for news reports include war, government, politics, education, health, the environment, economy, business, fashion, and entertainment, as well as athletic events, quirky or unusual events. Government proclamations, concerning royal ceremonies, laws, taxes, public health, and criminals, have been dubbed news since ancient times. Technological and social developments, often driven by government communication and espionage networks, have increased the speed with which news can spread, as well as influenced its content. The genre of news as we know it today is closely associated with the newspaper.</p>
+					<div class="social-icons-footer">
+						<i class="fab fa-facebook"></i>
+						<i class="fab fa-twitter-square"></i>
+						<i class="fab fa-instagram"></i>
+						<i class="fas fa-rss-square"></i>
+						<i class="fab fa-youtube-square"></i>
+						<i class="fab fa-linkedin"></i>
+					</div>
+				
+				<section class="Subscribe">
+					<h2>Subscribe to News Today</h2>
+					<p>Enter your email address to subscribe to this blog and receive notifications of new posts by email</p>
+					<input type="email" placeholder="Email Address">
+					<button type="button" class="footer-buttons">Subscribe</button>
+				</section>
+			</div>
+			
+			</section>
+			<section>
+				
+			</section>
+			<section id="clock">
+				<iframe src="https://free.timeanddate.com/clock/i7wkb9n5/n5265/szw110/szh110/hoc9b8578/hbw10/hfc754c29/cf100/hnc432f30/fav0/fiv0/mqcfff/mqs4/mql25/mqw12/mqd78/mhcfff/mhs2/mhl5/mhw2/mhd78/mmv0/hhcfff/hhs2/hhl50/hhw8/hmcfff/hms2/hml70/hmw8/hmr4/hscfff/hss3/hsl70/hsw3" frameborder="0" width="110" height="110"></iframe>
+			<!-- weather widget start --><div id="m-booked-bl-simple-58631"> <div class="booked-wzs-160-110 weather-customize" style="background-color:#137AE9;width:160px;" id="width1"> <div class="booked-wzs-160-110_in"> <div class="booked-wzs-160-data"> <div class="booked-wzs-160-left-img wrz-18"></div> <div class="booked-wzs-160-right"> <div class="booked-wzs-day-deck"> <div class="booked-wzs-day-val"> <div class="booked-wzs-day-number"><span class="plus">+</span>31</div> <div class="booked-wzs-day-dergee"> <div class="booked-wzs-day-dergee-val">&deg;</div> <div class="booked-wzs-day-dergee-name">C</div> </div> </div> <div class="booked-wzs-day"> <div class="booked-wzs-day-d"><span class="plus">+</span>34&deg;</div> <div class="booked-wzs-day-n"><span class="plus">+</span>28&deg;</div> </div> </div> <div class="booked-wzs-160-info"> <div class="booked-wzs-160-city">Vadodara</div> <div class="booked-wzs-160-date">Thursday, 22</div> </div> </div> </div> <div class="booked-wzs-center"><span class="booked-wzs-bottom-l"> See 7-Day Forecast</span></div> </a> </div> </div> </div><script type="text/javascript"> var css_file=document.createElement("link"); var widgetUrl = location.href; css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-widget-160.css?v=0.0.1'); document.getElementsByTagName("head")[0].appendChild(css_file); function setWidgetData_58631(data) { if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = document.getElementById('m-booked-bl-simple-58631'); if(objMainBlock !== null) { var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code; if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } var widgetSrc = "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=15002;type=1;scode=124;ltid=3457;domid=w209;anc_id=11241;countday=undefined;cmetric=1;wlangID=1;color=137AE9;wwidth=160;header_color=ffffff;text_color=333333;link_color=08488D;border_form=1;footer_color=ffffff;footer_text_color=333333;transparent=0;v=0.0.1";widgetSrc += ';ref=' + widgetUrl;widgetSrc += ';rand_id=58631';var weatherBookedScript = document.createElement("script"); weatherBookedScript.setAttribute("type", "text/javascript"); weatherBookedScript.src = widgetSrc; document.body.appendChild(weatherBookedScript) </script><!-- weather widget end -->
+		</section>
+			<div class="copyright">Copyright © 2021 News Today. Coded by Mohammed Fatehpur</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script type="text/javascript">
+			alert("Welcome to News World");
+			</script>
+					
+	</body>
+</html>
