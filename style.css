@@ -272,7 +272,7 @@ p{
 		z-index: 16;
 	}
 	.navbar-toggler-icon{
-		background-image: url(images/menu.jpg);
+		background-image: url(menu.jpg);
 		z-index: 16;
 	}
 }
@@ -311,7 +311,7 @@ p{
 }
 #clock {
 	text-align: center;
-	background-image: url(images/breaking-news-background-loop-free-video.jpg);
+	background-image: url(breaking-news-background-loop-free-video.jpg);
 }
 #location h1 {
 	text-align: center;
